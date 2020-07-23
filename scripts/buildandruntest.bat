@@ -14,14 +14,16 @@ Rem === End Parameter section ===
 
 Set result=0
 
+PushD !ProjectDir!
+Rem === Restore the nuget packages
+Call msbuild -t:restore
 Rem === Build the solution ===
-PushD !ProjectDir!!TestProjectName!
-Call msbuild !TestProjectName!.csproj /t:Rebuild /p:Configuration=!Configuration! /v:quiet
+Call msbuild !TestProjectName!.csproj /t:Rebuild /p:Configuration=!Configuration! /v:quiet /p:OutputPath=bin\!Configuration!
 Echo.MSBuild result ERRORLEVEL: %ERRORLEVEL%
 PopD
 
 Rem === Run the tests ===
-PushD !ProjectDir!!TestProjectName!\bin\!Configuration!
+PushD !ProjectDir!\bin\!Configuration!
 VSTest.Console.exe !TestProjectName!.dll
 IF %ERRORLEVEL% EQU 0 (
   Rem Test execution: all successful
