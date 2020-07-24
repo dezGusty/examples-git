@@ -19,3 +19,14 @@ Tested and working with `.NET Core 2.1`.
 
 There is a batch file to build and execute the unit tests from the command line.
 See `scripts/buildandruntest.bat`.
+
+### Git pickaxe
+
+Try the git pickaxe operator on the phrase: "Description for git pickaxe".
+Or "GetFirstRepetitionInterval".
+
+E.g.
+
+```sh
+git log -S GetFirstRepetitionInterval
+```
