@@ -2,6 +2,8 @@
 
 namespace sample_proj_mstest
 {
+    /// Description for git pickaxe
+    /// Sample class
     internal class Sample
     {
         public static double GetFirstRepetitionInterval(

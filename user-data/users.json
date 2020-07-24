@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "name": "Gusti",
+            "auth": {
+                "type": "password",
+                "token" : "my-secret-password"
+            }
+        }
+    ]
+}
