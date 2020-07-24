@@ -7,7 +7,7 @@ Rem You can call this after calling vsdevcmd
 Rem E.g. "c:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\VsDevCmd.bat"
 
 Rem === Begin Parameter section ===
-Set ProjectDir=..\sample-proj-mstest
+Set ProjectDir=..\examples-git\sample-proj-mstest
 Set TestProjectName=sample-proj-mstest
 Set Configuration=Debug
 Rem === End Parameter section ===
