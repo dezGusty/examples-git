@@ -3,8 +3,8 @@ SetLocal EnableDelayedExpansion
 SetLocal EnableExtensions
 
 Rem === Begin Parameter section ===
-Set goodGitHash=fd34a27
-Set badGitHash=8d3a3d2
+Set goodGitHash=ec2230401c93109e7f06c5558309de89c70a4a60
+Set badGitHash=655f72c18435f12051e10d29ab8d1b0935a1a3d5
 Set batchNameInThisDir=buildandruntest.bat
 Set vscmd="c:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\VsDevCmd.bat"
 Rem === End Parameter section ===
