@@ -17,8 +17,7 @@ namespace sample_proj_mstest
                 // desiredStartTime is in the FUTURE from appLaunchTime.
                 // E.g. If Now is 09:00 and SyncStartTime is at 11:00. 24hrs standard repetition.
                 // => interval should be 11-9 => 2 hrs
-                double result = desiredStartTime.Subtract(appLaunchTime).TotalMilliseconds;
-                return result;
+                return desiredStartTime.Subtract(appLaunchTime).Milliseconds;
             }
             else
             {
