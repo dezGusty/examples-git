@@ -6,7 +6,10 @@ namespace sample_proj_mstest
     /// Sample class
     internal class Sample
     {
-        public static double GetFirstRepetitionInterval(
+        /// Get the time in milliseconds up to the first occurrence of
+        /// when a task is expected to run.
+        /// Note: we're dealing with recurring tasks here.
+        public static double GetTimeToFirstScheduledRun(
             DateTime appLaunchTime,
             DateTime desiredStartTime,
             double frequencyInMs)

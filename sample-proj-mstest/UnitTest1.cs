@@ -24,7 +24,7 @@ namespace sample_proj_mstest
 
             Assert.AreEqual(
                 expectedMillisTillThen,
-                Sample.GetFirstRepetitionInterval(appStartTime, desiredSyncTime, syncFreq),
+                Sample.GetTimeToFirstScheduledRun(appStartTime, desiredSyncTime, syncFreq),
                 1);
         }
 
@@ -46,7 +46,7 @@ namespace sample_proj_mstest
 
             Assert.AreEqual(
                 expectedMillisTillThen,
-                Sample.GetFirstRepetitionInterval(appStartTime, desiredSyncTime, syncFreq),
+                Sample.GetTimeToFirstScheduledRun(appStartTime, desiredSyncTime, syncFreq),
                 1);
         }
 
@@ -68,7 +68,7 @@ namespace sample_proj_mstest
 
             Assert.AreEqual(
                 expectedMillisTillThen,
-                Sample.GetFirstRepetitionInterval(appStartTime, desiredSyncTime, syncFreq),
+                Sample.GetTimeToFirstScheduledRun(appStartTime, desiredSyncTime, syncFreq),
                 1);
         }
 
@@ -95,7 +95,7 @@ namespace sample_proj_mstest
 
             Assert.AreEqual(
                 expectedMillisTillThen,
-                Sample.GetFirstRepetitionInterval(appStartTime, desiredSyncTime, syncFreq),
+                Sample.GetTimeToFirstScheduledRun(appStartTime, desiredSyncTime, syncFreq),
                 1);
         }
 
@@ -121,7 +121,7 @@ namespace sample_proj_mstest
 
             Assert.AreEqual(
                 expectedMillisTillThen,
-                Sample.GetFirstRepetitionInterval(appStartTime, desiredSyncTime, syncFreq),
+                Sample.GetTimeToFirstScheduledRun(appStartTime, desiredSyncTime, syncFreq),
                 1);
         }
     }
