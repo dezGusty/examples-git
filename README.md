@@ -6,6 +6,10 @@ This is meant to present some more rare scenarios, such as `git bisect`.
 
 Note: the development of this repo was done under Windows, so it will probably not work out of the box under Linux.
 
+## Background
+
+The initial author of this repository found an useful scenario of applying git bisect and wrote [a blog post about it](https://dezgusty.github.io/git-bisect-with-unit-tests/). It may not be very easy to follow, therefore this repository was created to also allow users to try it on first-hand.
+
 ## Examples
 
 ### Unit tests
