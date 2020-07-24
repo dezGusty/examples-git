@@ -29,4 +29,6 @@ E.g.
 
 ```sh
 git log -S GetFirstRepetitionInterval
+git log -S "Description for git pickaxe"
+git log -S"Description for git pickaxe"
 ```
