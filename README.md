@@ -32,3 +32,11 @@ git log -S GetFirstRepetitionInterval
 git log -S "Description for git pickaxe"
 git log -S"Description for git pickaxe"
 ```
+
+### Tags
+
+A tag was added when noticed that tests don't run anymore.
+
+```sh
+git tag tests-broken
+```
